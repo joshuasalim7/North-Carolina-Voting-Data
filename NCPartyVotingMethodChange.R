@@ -4,16 +4,6 @@ library(ggplot2)
 library(maps)
 library(sf)
 
-# mail voters and one-stop voters
-# how people changed their voting behavior between 2016 and 2020
-# count the two column
-# who are the people moving into different voting behaviors
-# anybody who voted one stop in 2016 who voted one stop in 2020 as registered democrats
-# visualize data 
-# 1 column: people who voted one stop in 2016 and 2020
-# 2nd column: people who voted one stop in 2016 and by mail in 2020
-# people who voted one stop in 2016 and did not vote at all in 2020
-# people who did not vote in 2016 but voted one stop in 2020
 
 ncvoter1 <- read_tsv("C:/Users/jsali/Documents/ncvoter1.txt", 
                      col_types = cols(
